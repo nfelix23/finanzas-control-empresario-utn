@@ -1,80 +1,142 @@
 # Unidad 2: Análisis de Estados Financieros
 
-Esta unidad aborda las técnicas y metodologías para analizar e interpretar la información contable-financiera de las empresas, con enfoque en el contexto empresarial argentino.
+Esta unidad aborda el análisis e interpretación de la información contable-financiera de las empresas, herramienta fundamental para la toma de decisiones empresariales y la evaluación del desempeño organizacional.
 
-## Objetivos de Aprendizaje
+## 🎯 Objetivos de Aprendizaje
 
-- Comprender la estructura y componentes de los estados financieros
-- Aplicar técnicas de análisis horizontal y vertical para evaluar tendencias
-- Calcular e interpretar ratios financieros clave
-- Desarrollar modelos para la predicción de riesgo financiero y quiebras
-- Evaluar la salud financiera de empresas argentinas mediante casos prácticos
+- Comprender la estructura y componentes de los estados financieros básicos
+- Dominar el cálculo e interpretación de ratios financieros fundamentales
+- Aplicar técnicas de análisis horizontal, vertical y comparativo
+- Evaluar la salud financiera y riesgo de quiebra empresarial
+- Implementar análisis financiero automatizado con Python
 
-## Notebooks
+## 📚 Marco Teórico
 
-### 2.1 Introducción a los Estados Financieros
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nfelix23/finanzas-control-empresario-utn/blob/main/notebooks/unidad_2/2.1_introduccion_estados_financieros.ipynb)
+### Estados Financieros Básicos
 
-- Estructura y componentes del Balance General
-- Estado de Resultados y su interpretación
-- Estado de Flujo de Efectivo
-- Particularidades de la normativa contable argentina
+Los estados financieros son informes que presentan la situación económica y financiera de una empresa en un momento determinado o durante un período específico. En Argentina, se rigen por las Normas Internacionales de Información Financiera (NIIF) y las normas de la Federación Argentina de Consejos Profesionales de Ciencias Económicas (FACPCE).
 
-### 2.2 Análisis Horizontal y Vertical
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nfelix23/finanzas-control-empresario-utn/blob/main/notebooks/unidad_2/2.2_analisis_horizontal_vertical.ipynb)
+#### Estados Principales:
+1. **Estado de Situación Patrimonial (Balance)**: Fotografía financiera en un momento dado
+2. **Estado de Resultados**: Rentabilidad durante un período
+3. **Estado de Flujo de Efectivo**: Movimientos de efectivo
+4. **Estado de Evolución del Patrimonio Neto**: Cambios en el capital
 
-- Metodología del análisis horizontal: evaluación de tendencias
-- Técnicas de análisis vertical y su interpretación
-- Implementación con Python y pandas
-- Visualización de tendencias financieras
+### Análisis de Ratios Financieros
 
-### 2.3 Ratios Financieros
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nfelix23/finanzas-control-empresario-utn/blob/main/notebooks/unidad_2/2.3_ratios_financieros.ipynb)
+Los ratios son herramientas que permiten comparar y evaluar el desempeño financiero mediante relaciones matemáticas entre diferentes partidas de los estados financieros.
 
-- Indicadores de liquidez (corriente, prueba ácida, capital de trabajo)
-- Indicadores de actividad (rotación de inventarios, plazos de cobro y pago)
-- Indicadores de solvencia y endeudamiento
-- Indicadores de rentabilidad (ROE, ROA, margen bruto/operativo/neto)
-- Implementación de funciones en Python para su cálculo automatizado
+#### Categorías Principales:
+- **Liquidez**: Capacidad de pago a corto plazo
+- **Actividad**: Eficiencia en el uso de activos
+- **Endeudamiento**: Estructura de financiamiento
+- **Rentabilidad**: Capacidad de generar beneficios
 
-### 2.4 Análisis Integrado y Modelo DuPont
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nfelix23/finanzas-control-empresario-utn/blob/main/notebooks/unidad_2/2.4_analisis_integrado_modelo_dupont.ipynb)
+## 📖 Notebooks Disponibles
 
-- Descomposición del ROE mediante el enfoque DuPont
-- Interpretación de los componentes del modelo
-- Análisis de sensibilidad para mejora de indicadores
-- Implementación en Python y visualización
+### 2.1 Lectura e Interpretación de Estados Financieros
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nfelix23/finanzas-control-empresario-utn/blob/main/notebooks/unidad_2/2.1_lectura_estados_financieros.ipynb)
 
-### 2.5 Predicción de Quiebras y Riesgo Financiero
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nfelix23/finanzas-control-empresario-utn/blob/main/notebooks/unidad_2/2.5_prediccion_quiebras.ipynb)
+- Estructura del Estado de Situación Patrimonial
+- Componentes del Estado de Resultados
+- Normas contables argentinas (NIIF-FACPCE)
+- Lectura automatizada de estados financieros con pandas
 
-- Modelo Z-Score de Altman
-- Adaptaciones para mercados emergentes (Z''-Score)
-- Implementación de modelos predictivos con Python
-- Aplicación a casos de empresas argentinas
+### 2.2 Ratios de Liquidez y Actividad
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nfelix23/finanzas-control-empresario-utn/blob/main/notebooks/unidad_2/2.2_ratios_liquidez_actividad.ipynb)
 
-## Módulos de Utilidades
+- Ratios de liquidez corriente, ácida y absoluta
+- Rotación de inventarios, cuentas por cobrar y por pagar
+- Ciclo de conversión del efectivo
+- Análisis de capital de trabajo
 
-El módulo `analisis_financiero.py` contiene funciones reutilizables para el análisis financiero:
+### 2.3 Ratios de Endeudamiento y Rentabilidad
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nfelix23/finanzas-control-empresario-utn/blob/main/notebooks/unidad_2/2.3_ratios_endeudamiento_rentabilidad.ipynb)
+
+- Estructura de endeudamiento y apalancamiento
+- ROE, ROA, ROI: Medidas de rentabilidad
+- Márgenes de ganancia y eficiencia operativa
+- Análisis de cobertura de intereses
+
+### 2.4 Modelo DuPont
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nfelix23/finanzas-control-empresario-utn/blob/main/notebooks/unidad_2/2.4_analisis_dupont.ipynb)
+
+- Descomposición del ROE (Rentabilidad del Patrimonio)
+- Análisis de palancas: financiera, operativa y total
+- Identificación de drivers de rentabilidad
+- Estrategias de mejora del desempeño financiero
+
+### 2.5 Análisis Temporal y Comparativo
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nfelix23/finanzas-control-empresario-utn/blob/main/notebooks/unidad_2/2.5_analisis_temporal_comparativo.ipynb)
+
+- Análisis horizontal (evolución temporal)
+- Análisis vertical (estructura porcentual)
+- Benchmarking sectorial
+- Análisis de tendencias con visualizaciones
+
+### 2.6 Predicción de Quiebras - Modelo Altman
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nfelix23/finanzas-control-empresario-utn/blob/main/notebooks/unidad_2/2.6_prediccion_quiebras_altman.ipynb)
+
+- Z-Score de Altman original y adaptaciones
+- Z''-Score para mercados emergentes
+- Modelos predictivos de dificultades financieras
+- Aplicación a empresas argentinas cotizantes
+
+## 🔧 Módulo de Utilidades
+
+### analisis_financiero.py
+Módulo Python con funciones reutilizables para automatizar cálculos financieros:
 
 ```python
-# Ejemplo de uso
-from analisis_financiero import calcular_ratios, analisis_dupont
+from analisis_financiero import (
+    calcular_ratios_liquidez,
+    calcular_ratios_actividad,
+    calcular_ratios_endeudamiento,
+    calcular_ratios_rentabilidad,
+    analisis_dupont,
+    z_score_altman
+)
 
-# Calcular los ratios financieros para una empresa
-ratios = calcular_ratios(balance, resultados)
+# Ejemplo de uso
+ratios = calcular_ratios_liquidez(activo_corriente, pasivo_corriente, inventarios, efectivo)
 ```
 
-## Material Complementario
+## 📊 Casos de Estudio
+
+Los notebooks incluyen análisis prácticos de empresas argentinas como:
+- **YPF S.A.** (Energía)
+- **Banco Macro** (Servicios Financieros)
+- **Pampa Energía** (Utilities)
+- **Telecom Argentina** (Telecomunicaciones)
+- **Arcor** (Alimentos)
+
+## 📚 Material Complementario
 
 ### Lecturas Recomendadas
-- Dumrauf, G. L. (2013). *Finanzas Corporativas: Un enfoque latinoamericano*. 3ra Edición. Capítulos 8-9.
-- Palepu, K. G., & Healy, P. M. (2013). *Business Analysis and Valuation Using Financial Statements*. Capítulos 3-5.
+- Dumrauf, G. L. (2013). *Finanzas Corporativas: Un enfoque latinoamericano*. 3ra Edición. Capítulos 8-10.
+- Palepu, K. G., & Healy, P. M. (2013). *Business Analysis and Valuation Using Financial Statements*. Capítulos 3-6.
+- García Fronti, I. (2017). *Análisis de Estados Financieros*. Editorial Errepar. Buenos Aires.
 
-### Recursos Online
-- [Comisión Nacional de Valores (CNV)](https://www.cnv.gov.ar/) - Estados financieros de empresas que cotizan en bolsa
-- [Bolsa de Comercio de Buenos Aires](https://www.bcba.sba.com.ar/) - Información financiera de empresas argentinas
+### Recursos Online Argentina
+- [Comisión Nacional de Valores (CNV)](https://www.cnv.gov.ar/) - Estados financieros de empresas cotizantes
+- [Bolsas y Mercados Argentinos (BYMA)](https://www.byma.com.ar/) - Información bursátil
+- [BCRA - Banco Central](https://www.bcra.gob.ar/) - Información del sistema financiero
+- [FACPCE](https://www.facpce.org.ar/) - Normas contables profesionales
 
-## Ejercicios Prácticos
+## 🎯 Metodología de Estudio
 
-Cada notebook incluye ejercicios prácticos utilizando datos reales de empresas argentinas para aplicar los conceptos aprendidos en situaciones del mundo real.
+1. **Teoría** (30%): Conceptos fundamentales y marcos teóricos
+2. **Práctica Python** (40%): Implementación computacional
+3. **Casos Reales** (30%): Aplicación a empresas argentinas
+
+## ⚡ Conocimientos Previos
+
+- Unidad 1: Valor temporal del dinero
+- Conceptos básicos de contabilidad
+- Programación Python básica (pandas, matplotlib)
+
+## 🔗 Conexiones con Otras Unidades
+
+- **Unidad 3**: Valuación de activos utilizará ratios como inputs
+- **Unidad 6**: Valuación de empresas aplicará análisis financiero
+- **Unidad 7**: Project Finance incorporará análisis de viabilidad financiera
